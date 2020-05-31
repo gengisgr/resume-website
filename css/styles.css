@@ -1,0 +1,62 @@
+/* permanent-marker-regular - latin */
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/permanent-marker-v9-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Permanent Marker Regular"), local("PermanentMarker-Regular"), url("../fonts/permanent-marker-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/permanent-marker-v9-latin-regular.woff2") format("woff2"), url("../fonts/permanent-marker-v9-latin-regular.woff") format("woff"), url("../fonts/permanent-marker-v9-latin-regular.ttf") format("truetype"), url("../fonts/permanent-marker-v9-latin-regular.svg#PermanentMarker") format("svg");
+  /* Legacy iOS */ }
+
+/* roboto-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v20-latin-ext_latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-v20-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin-ext_latin-regular.woff") format("woff"), url("../fonts/roboto-v20-latin-ext_latin-regular.ttf") format("truetype"), url("../fonts/roboto-v20-latin-ext_latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */ }
+
+.marker {
+  font-family: 'Permanent Marker'; }
+
+body {
+  font-family: 'Roboto'; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  min-height: 400px; }
+
+.footer {
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.typing {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite; }
+
+@keyframes caret {
+  50% {
+    border-color: transparent; } }
+
+.jumbotron {
+  background: #FFFFFF; }
+
+.box-part {
+  background: #FFF;
+  border-radius: 0;
+  padding: 60px 10px;
+  margin: 30px 0px; }
+
+.text {
+  margin: 20px 0px; }
+
+.carousel-text {
+  text-shadow: 2px 2px 4px #000000; }
+
+.navbar-light {
+  background-color: #FFFFFF; }
+
+/*# sourceMappingURL=styles.css.map */
