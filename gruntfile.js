@@ -67,6 +67,17 @@ module.exports = function (grunt) {
                     src: ['fonts/*.*'],
                     dest: 'dist'
                 }]
+            },
+            morefonts: {
+                files: [
+                {
+                    //for font-awesome
+                    expand: true,
+                    dot: true,
+                    cwd: './',
+                    src: ['fonts/*.*'],
+                    dest: 'dist'
+                }]
             }
         },
 
@@ -80,7 +91,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,                  // Enable dynamic expansion
                     cwd: './',                   // Src matches are relative to this path
-                    src: ['img/*.{png,jpg,gif}'],   // Actual patterns to match
+                    src: ['img/*.{png,jpg,gif,ico}'],   // Actual patterns to match
                     dest: 'dist/'                  // Destination path prefix
                 }]
             }
